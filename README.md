@@ -2,7 +2,6 @@
 ```
 Name : MOHAMMED FAIZAL J
 Roll no : 212222100027
-Date of experiment : Ex01
 ```
 
 ## Aim: 
