@@ -1,7 +1,9 @@
 # EXPERIMENT--01-ALP-FOR-8086
 ```
-Name : MOHAMMED FAIZAL J
+Name : Mohammed Faizal J
 Roll no : 212222100027
+Date of experiment : 19/3/2024
+
 ```
 
 ## Aim: 
@@ -49,7 +51,7 @@ mov [2345h],ax;
 ret
 ```
 ## Output  
-![image](https://github.com/MohammedFaizal05/EXPERIMENT--01-ALP-FOR-8086/assets/120553195/0e71e0e1-339e-4557-ae79-f77c998da101)
+![image](https://github.com/MohammedFaizal05/EXPERIMENT--01-ALP-FOR-8086/assets/120553195/8cb1a29d-a3e7-4f49-9608-3d80da5e78c9)
 
 
 ## Subtraction   of 8 bit numbers  ALP 
@@ -64,7 +66,7 @@ mov [7895h],al;
 ret
 ```
 ## Output :
-![image](https://github.com/MohammedFaizal05/EXPERIMENT--01-ALP-FOR-8086/assets/120553195/b7530f02-50d6-432c-999d-e4ba6db734b0)
+![image](https://github.com/MohammedFaizal05/EXPERIMENT--01-ALP-FOR-8086/assets/120553195/2c423428-f96e-4479-8828-9a9337354b05)
 
 
 ## Multiplication alp :
@@ -80,7 +82,7 @@ ret
 ```
  ## Output  
  
-![image](https://github.com/MohammedFaizal05/EXPERIMENT--01-ALP-FOR-8086/assets/120553195/fceb29c6-e56e-4933-8b00-c93797bce226)
+![image](https://github.com/MohammedFaizal05/EXPERIMENT--01-ALP-FOR-8086/assets/120553195/1be41c4b-f2df-447b-b957-36adfe2c5147)
 
 
 ## Division alp 
@@ -95,8 +97,59 @@ mov [6935h],bx;
 ret
 ```
 ## Output  
-![image](https://github.com/MohammedFaizal05/EXPERIMENT--01-ALP-FOR-8086/assets/120553195/f49f43c6-f530-4f9b-a564-03664136b8dd)
+![image](https://github.com/MohammedFaizal05/EXPERIMENT--01-ALP-FOR-8086/assets/120553195/8e44370c-a978-4f5f-a5dc-8cc6877e75b1)
+
+## OR Operation
+```py
+org 100H  
+MOV SI,0532H;
+MOV AX,0A32H;
+MOV BX,0B13H;
+OR AX,BX;
+ret
+```
+![image](https://github.com/MohammedFaizal05/EXPERIMENT--01-ALP-FOR-8086/assets/120553195/a3c707dd-3417-4dff-9c50-5a5e4dd05bdc)
+
+
+## AND Operation
+```py
+org 100H  
+MOV [SI],AX;
+MOV AX,0A32H;
+MOV BX,0B13H;
+AND AX,BX; 
+ret
+```
+![image](https://github.com/MohammedFaizal05/EXPERIMENT--01-ALP-FOR-8086/assets/120553195/0f250568-a4c6-435a-900b-f1dbd2dd52ec)
+
+## XOR Operation
+```py
+org 100H  
+MOV [SI+2],AX;
+MOV AX,0A32H;
+MOV BX,0B13H; 
+XOR AX,BX;  
+ret 
+```
+![image](https://github.com/MohammedFaizal05/EXPERIMENT--01-ALP-FOR-8086/assets/120553195/b361a996-745f-4af0-9c63-87067ac3aead)
+
+
+## NOT Operation
+```py
+org 100H  
+MOV [SI+4],AX;
+MOV AX,0A32H;
+NOT AX; 
+MOV [SI+6],AX;
+ret 
+```
+![image](https://github.com/MohammedFaizal05/EXPERIMENT--01-ALP-FOR-8086/assets/120553195/1c4eb899-7b2d-4ee6-8566-78adf03bd9a3)
+
+
+
+
+
+
 
 ## Result :
- 
-Hence ALP on fundamental arithmetic and logical operations is verified and executed.
+Thus, ALP for fundamental arithmetic and logical operations are executed successfully.
