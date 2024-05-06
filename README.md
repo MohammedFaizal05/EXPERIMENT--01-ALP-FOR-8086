@@ -1,10 +1,8 @@
 # EXPERIMENT--01-ALP-FOR-8086
-```
-Name : Mohammed Faizal J
-Roll no : 212222100027
-Date of experiment : 19/3/2024
 
-```
+## NAME : MOHAMMED FAIZAL J
+
+## REG NO : 212222100027
 
 ## Aim: 
 To Write and execute ALP on fundamental arithmetic and logical operations
